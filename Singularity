@@ -24,6 +24,9 @@ apt-get install -y aptitude build-essential cmake g++ gfortran git pkg-config so
 apt-get install -y unrar
 apt-get install -y libzip-dev
 
+# Install CS 181 specific stuff
+apt-get install -y swi-prolog smlnj java11-sdk
+
 # Clean up
 apt-get -y autoremove
 rm -rvf /var/lib/apt/lists/*
