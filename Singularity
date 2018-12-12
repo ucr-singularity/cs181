@@ -23,7 +23,6 @@ apt-get install -y screen terminator tmux vim wget
 apt-get install -y aptitude build-essential cmake g++ gfortran git pkg-config software-properties-common
 apt-get install -y unrar
 apt-get install -y libzip-dev
-apt-get install -y tree
 
 # Install CS 181 specific stuff
 apt-get install -y swi-prolog smlnj java11-sdk
