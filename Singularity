@@ -27,6 +27,9 @@ apt-get install -y libzip-dev
 # Install CS 181 specific stuff
 apt-get install -y swi-prolog smlnj java11-sdk
 
+# More cs181 specific stuff - for readline in interpreters
+apt-get install -y rlwrap
+
 # Clean up
 apt-get -y autoremove
 rm -rvf /var/lib/apt/lists/*
