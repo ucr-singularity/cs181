@@ -29,6 +29,8 @@ apt-get install -y swi-prolog smlnj java11-sdk
 
 # More cs181 specific stuff - for readline in interpreters
 apt-get install -y rlwrap
+# More cs181 specific stuff - for dot
+apt-get install -y graphviz
 
 # Clean up
 apt-get -y autoremove
